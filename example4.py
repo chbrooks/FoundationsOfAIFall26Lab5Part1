@@ -43,7 +43,6 @@ available_functions = {
 cities = ['London', 'Paris', 'New York', 'Tokyo', 'Sydney']
 city = random.choice(cities)
 city2 = random.choice(cities)
-city2 = 'San Francisco'
 messages = [{'role': 'user', 'content': f'What is the temperature in {city}? and what are the weather conditions in {city2}?'}]
 print('----- Prompt:', messages[0]['content'], '\n')
 
